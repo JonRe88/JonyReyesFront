@@ -19,7 +19,7 @@ export function About() {
           >
             <div className="aspect-square max-w-md mx-auto relative z-10 rounded-3xl overflow-hidden glass-panel p-2">
               <img
-                src={`${import.meta.env.BASE_URL}images/profile-placeholder.png`}
+                src={`${import.meta.env.BASE_URL}images/profile.png`}
                 alt="Jony Reyes"
                 className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-500"
               />
