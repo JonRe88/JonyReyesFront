@@ -1,0 +1,55 @@
+    {
+      title: 'ReparaYa',
+      description:
+        'Aplicación móvil para servicios de reparación rápida y eficiente con geolocalización en tiempo real.',
+      image:
+        'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
+      category: 'Mobile Apps',
+      tech: ['React Native', 'Expo', 'TypeScript'],
+      url: 'https://reparaya--8qkapxnbi2.expo.app/',
+    },
+    {
+      title: 'Verdad o Shot',
+      description: 'Juego interactivo de party game con preguntas dinámicas y mecánicas multijugador.',
+      image:
+        'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      category: 'Web Apps',
+      tech: ['React', 'Vite', 'Tailwind CSS'],
+      url: 'https://verdad-o-shot-drinki-u20q.bolt.host/',
+    },
+    {
+      title: 'Dibuja y Juega',
+      description:
+        'Plataforma creativa para dibujar y jugar en tiempo real. Similar a Pictionary con soporte multiplayer.',
+      image:
+        'https://images.pexels.com/photos/5393824/pexels-photo-5393824.jpeg?auto=compress&cs=tinysrgb&w=800',
+      category: 'Web Apps',
+      tech: ['Next.js', 'Canvas API', 'WebSockets'],
+      url: 'https://dibuja-y-juega.vercel.app/',
+    },
+    {
+      title: 'BioS3Lab',
+      description: 'Sitio web institucional para laboratorio de biología con información y servicios.',
+      image:
+        'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=800',
+      category: 'Web Apps',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      url: 'https://jonre88.github.io/BioS3Lab/',
+    },
+    {
+      title: 'Solucontas',
+      description: 'Identidad corporativa profesional para servicios contables y asesoramiento fiscal.',
+      image: 'https://front-end-jony-reyes-yqg8.vercel.app/LOGO%20SOLUCONTAS.jpg',
+      category: 'Diseño',
+      tech: ['Branding', 'Logo Design', 'Color Theory'],
+      url: '#',
+    },
+    {
+      title: 'Creativo',
+      description: 'Diseño de marca moderna y minimalista con identidad visual única.',
+      image: 'https://front-end-jony-reyes-yqg8.vercel.app/Creativo.png',
+      category: 'Diseño',
+      tech: ['Branding', 'Design System', 'Typography'],
+      url: '#',
+    },
+  ];
