@@ -90,4 +90,24 @@
                       linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
     background-size: 40px 40px;
   }
+
+  .marquee-ltr {
+    display: inline-block;
+    animation: marquee-ltr 30s linear infinite;
+  }
+
+  .marquee-rtl {
+    display: inline-block;
+    animation: marquee-rtl 35s linear infinite;
+  }
+
+  @keyframes marquee-ltr {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes marquee-rtl {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
 }
