@@ -44,9 +44,9 @@ export function Music() {
                   Cuando no estoy escribiendo código, exploro la frontera entre la tecnología y el arte creando música impulsada por Inteligencia Artificial.
                 </p>
                 
-                <div className="mt-auto">
+                <div className="mt-auto flex flex-col gap-3">
                   <a 
-                    href="https://open.spotify.com/intl-es/artist/3vCrC0C16FpF2o2dHLg0Eu" 
+                    href="https://open.spotify.com/artist/34X4pmiC1lKMz9dH1OEWy5" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 px-6 py-3 bg-[#1DB954] hover:bg-[#1ed760] text-black font-bold rounded-full transition-colors duration-300 shadow-lg shadow-[#1DB954]/25"
@@ -57,6 +57,27 @@ export function Music() {
                 </div>
               </div>
             </div>
+          </motion.div>
+
+          {/* Spotify Embed Player */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="mt-6"
+          >
+            <iframe
+              data-testid="embed-iframe"
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/artist/34X4pmiC1lKMz9dH1OEWy5?utm_source=generator&theme=0"
+              width="100%"
+              height="152"
+              frameBorder={0}
+              allowFullScreen
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            />
           </motion.div>
         </div>
       </div>
